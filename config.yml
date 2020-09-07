@@ -5,12 +5,13 @@ template:
   name: operating-systems
 before:
   - type: createIssue
-    title: Welcome!
-    body: new-issue.md
+    title: 'Video: Operating Systems'
+    body: operating-systems.md
+    store:
+      operating_systems_link: '{{ result.data.html_url }}'
 steps:
-  - title: First step
-    description: The first step in your course
-    event: issues.assigned
-    link: '{{ repoUrl }}'
-    actions:
-      - type: closeIssue
+  - title: 'Video: Operating Systems'
+    description: 'Operating Systems: Crash Course Computer Science'
+    event: issues.closed
+    link: '{{ store.operating_systems_link }}'
+    video: 'https://www.youtube.com/embed/26QPDBe-NB8'
