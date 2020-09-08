@@ -1,9 +1,5 @@
-This is the description we show on the course page [here](https://lab.github.com/Course-Reactor/operating-systems). This first paragraph will be featured at the top of the page so make it great.
-​
+A brief and gentle introduction to operating systems.
 
-​
-Be sure to tell the learner about the technology you are teaching, why they should learn it, how they can use it, and what you will teach them.
-​
+During this course, you will learn the basics about operating systems, what purpose they serve, and the differences between them.
 
-
-Include information on how they can reach you for questions about the content or course. 
+This course is provided by [Course Reactor](https://www.coursereactor.org)
