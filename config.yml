@@ -15,3 +15,18 @@ steps:
     event: issues.closed
     link: '{{ store.operating_systems_link }}'
     video: 'https://www.youtube.com/embed/26QPDBe-NB8'
+    actions:
+      - type: createIssue
+        title: 'Video: What is Linux?'
+        body: what-is-linux.md
+        store:
+          what_is_linux_link: '{{ result.data.html_url }}'
+  - title: 'Video: What is Linux?'
+    actions:
+      - type: createIssue
+        title: 'Prompt: What''s an Operating System?'
+        body: a-response-file.md
+    description: What is Linux? - Techquickie
+    link: '{{ store.what_is_linux_link }}'
+    video: 'https://www.youtube.com/embed/zA3vmx0GaO8'
+    event: issues.closed
