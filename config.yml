@@ -25,8 +25,14 @@ steps:
     actions:
       - type: createIssue
         title: 'Prompt: What''s an Operating System?'
-        body: a-response-file.md
+        body: operating-system-prompt.md
+        store:
+          operating_system_prompt_link: '{{ result.data.html_url }}'
     description: What is Linux? - Techquickie
     link: '{{ store.what_is_linux_link }}'
     video: 'https://www.youtube.com/embed/zA3vmx0GaO8'
     event: issues.closed
+  - title: 'Prompt: What''s an Operating System?'
+    event: issues.closed
+    description: Describe in your own words what an operating system is.
+    link: '{{ store.operating_system_prompt_link }}'

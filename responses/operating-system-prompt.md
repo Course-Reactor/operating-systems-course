@@ -1,4 +1,4 @@
-# :black_nib: Prompt: What is an Operating System?
+# :black_nib: Prompt: What's an Operating System?
 
 In your own words, what is an operating system? What purpose does it serve? What types of operating systems are there and what are their uses?
 
